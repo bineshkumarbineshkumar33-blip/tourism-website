@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+/* Home Section */
+.bg-container {
+  background-image: url('https://d2clawv67efefq.cloudfront.net/ccbp-static-website/ocean.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+.tourism-card {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-heading {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #555;
+}
+
+.button {
+  background-color: #25b1cc;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #1a8ea3;
+}
+
+/* Favourite Places */
+.favourite-places-bg-container {
+  background-image: url('https://d2clawv67efefq.cloudfront.net/ccbp-static-website/towerbg.png');
+  height: 100vh;
+  background-size: cover;
+  padding: 24px;
+}
+
+.favourite-places-heading {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.favourite-place-card-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.favourite-place-card-container:hover {
+  transform: scale(1.02);
+}
+
+.favourite-place-card-heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0f0e46;
+}
+
+.favourite-place-card-description {
+  font-size: 14px;
+  color: #6c6b70;
+}
+
+.favourite-place-card-image {
+  width: 90px;
+  height: 110px;
+}
+
+/* Detailed View */
+.detailed-view-bg-container {
+  background-image: url('https://d2clawv67efefq.cloudfront.net/ccbp-static-website/seabg.png');
+  height: 100vh;
+  background-size: cover;
+}
+
+.detailed-view-heading {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.detailed-view-card-container {
+  background-color: white;
+  margin: 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.detailed-view-card-text-container {
+  padding: 16px;
+}
+
+.detailed-view-card-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0f0e46;
+}
+
+.detailed-view-card-description {
+  font-size: 14px;
+  color: #6c6b70;
+}
